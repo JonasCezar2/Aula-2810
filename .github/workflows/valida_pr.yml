@@ -2,7 +2,7 @@ name: Validação de PR - CI
 
 on:
   pull_request:
-    branches: [ "develop", "master", "main" ]
+    branches: [ "developer", "master", "main" ]
 
 jobs:
   testes:
